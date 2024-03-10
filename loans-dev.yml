@@ -8,7 +8,7 @@ spring:
     password: secret
     type: com.zaxxer.hikari.HikariDataSource
     hikari:
-      minimum-idle: 10
+      minimum-idle: 11
       maximum-pool-size: 100
   jpa:
     properties:
