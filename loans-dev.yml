@@ -5,7 +5,7 @@ spring:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://loans-service-postgres:5434/loan_service
     username: postgres
-    password: secret
+    password: neko
     type: com.zaxxer.hikari.HikariDataSource
     hikari:
       minimum-idle: 10
@@ -18,4 +18,3 @@ spring:
 springdoc:
   swagger-ui:
     path: /swagger-ui.html
-
