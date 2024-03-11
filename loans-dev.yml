@@ -1,25 +1,25 @@
 server:
   port: 8090
-spring:
-  datasource:
-    driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://loans-service-postgres:5434/loan_service
-    username: postgres
-    password: secret
-    type: com.zaxxer.hikari.HikariDataSource
-    hikari:
-      minimum-idle: 11
-      maximum-pool-size: 100
-  jpa:
-    properties:
-      hibernate:
-        show_sql: true
-        format_sql: true
-  rabbitmq:
-    host: "localhost"
-    port: 5672
-    username: "guest"
-    password: "guest"
+# spring:
+#   datasource:
+#     driver-class-name: org.postgresql.Driver
+#     url: jdbc:postgresql://loans-service-postgres:5434/loan_service
+#     username: postgres
+#     password: secret
+#     type: com.zaxxer.hikari.HikariDataSource
+#     hikari:
+#       minimum-idle: 11
+#       maximum-pool-size: 100
+#   jpa:
+#     properties:
+#       hibernate:
+#         show_sql: true
+#         format_sql: true
+#   rabbitmq:
+#     host: "localhost"
+#     port: 5672
+#     username: "guest"
+#     password: "guest"
     
 springdoc:
   swagger-ui:
