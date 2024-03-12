@@ -8,4 +8,4 @@ eureka:
     fetchRegistry: false #fetch all information from client
     registerWithEureka: false # register client, whitout thmslf
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://localhost:8887/eureka
