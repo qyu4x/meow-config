@@ -1,11 +1,11 @@
 server:
-  port: 8887
+  port: 8761
 
 eureka:
   instance:
     hostname: localhost
   client:
-    fetchRegistry: false #fetch all information from client
-    registerWithEureka: false # register client, whitout thmslf
-    # serviceUrl:
-    #   defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
